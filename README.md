@@ -1,6 +1,8 @@
 <p align="center">
-  <img src="./assets/profile-hero.svg" alt="Ryan Yang — AI product developer building the last mile of AI work" width="100%">
+  <img src="./assets/profile-hero.svg" alt="Ryan Yang — independent AI product developer building small systems that help AI work land" width="100%">
 </p>
+
+<p align="center"><a href="https://bio.ruiy.sh"><strong>Open the interactive Field Notes →</strong></a></p>
 
 <p align="center">
   <a href="https://bio.ruiy.sh"><img src="./assets/action-website.svg" alt="Website" width="31.5%"></a>
