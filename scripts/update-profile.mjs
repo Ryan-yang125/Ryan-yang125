@@ -49,12 +49,6 @@ async function contributionCount() {
   return data.data.user.contributionsCollection.contributionCalendar.totalContributions;
 }
 
-function replaceMarker(markdown, marker, value) {
-  const pattern = new RegExp(`(<!-- ${marker} -->).*?(<!-- \/${marker} -->)`, 's');
-  if (!pattern.test(markdown)) throw new Error(`Missing README marker: ${marker}`);
-  return markdown.replace(pattern, `$1${value}$2`);
-}
-
 function escapeXml(value) {
   return String(value)
     .replaceAll('&', '&amp;')
@@ -72,20 +66,21 @@ const [drophere, checkhere, skillManager, contributions, chatLlm] = await Promis
   githubJson(`https://api.github.com/repos/${owner}/ChatLLM-Web`),
 ]);
 
-let readme = await readFile(new URL('../README.md', import.meta.url), 'utf8');
-readme = replaceMarker(readme, 'version:drophere', drophere);
-readme = replaceMarker(readme, 'version:checkhere', checkhere);
-readme = replaceMarker(readme, 'version:skill-manager', skillManager);
-readme = replaceMarker(readme, 'stars:chatllm', chatLlm.stargazers_count);
-await writeFile(new URL('../README.md', import.meta.url), readme);
-
-const template = await readFile(new URL('../assets/living-terminal.template.svg', import.meta.url), 'utf8');
-const svg = template
+const terminalTemplate = await readFile(new URL('../assets/living-terminal.template.svg', import.meta.url), 'utf8');
+const terminalSvg = terminalTemplate
   .replaceAll('{{DROPHERE_VERSION}}', escapeXml(drophere))
   .replaceAll('{{CHECKHERE_VERSION}}', escapeXml(checkhere))
   .replaceAll('{{SKILL_MANAGER_VERSION}}', escapeXml(skillManager))
   .replaceAll('{{CONTRIBUTIONS}}', escapeXml(contributions))
   .replaceAll('{{CHATLLM_STARS}}', escapeXml(chatLlm.stargazers_count));
-await writeFile(new URL('../assets/living-terminal.svg', import.meta.url), svg);
+await writeFile(new URL('../assets/living-terminal.svg', import.meta.url), terminalSvg);
+
+const heroTemplate = await readFile(new URL('../assets/profile-hero.template.svg', import.meta.url), 'utf8');
+const heroSvg = heroTemplate.replaceAll('{{CONTRIBUTIONS}}', escapeXml(contributions));
+await writeFile(new URL('../assets/profile-hero.svg', import.meta.url), heroSvg);
+
+const originTemplate = await readFile(new URL('../assets/origin-chatllm.template.svg', import.meta.url), 'utf8');
+const originSvg = originTemplate.replaceAll('{{CHATLLM_STARS}}', escapeXml(chatLlm.stargazers_count));
+await writeFile(new URL('../assets/origin-chatllm.svg', import.meta.url), originSvg);
 
 console.log(JSON.stringify({ drophere, checkhere, skillManager, contributions, chatLlmStars: chatLlm.stargazers_count }));

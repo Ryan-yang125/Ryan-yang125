@@ -1,29 +1,39 @@
-# Ryan Yang
+<p align="center">
+  <img src="./assets/profile-hero.svg" alt="Ryan Yang — AI product developer building the last mile of AI work" width="100%">
+</p>
 
-Building the last mile of AI work.
+<p align="center">
+  <a href="https://bio.ruiy.sh"><img src="./assets/action-website.svg" alt="Website" width="31.5%"></a>
+  <a href="https://x.com/ruiyanghim"><img src="./assets/action-x.svg" alt="X / Twitter" width="31.5%"></a>
+  <a href="mailto:ruiyang0012@gmail.com"><img src="./assets/action-email.svg" alt="Email" width="31.5%"></a>
+</p>
 
-I make open-source tools that help agents and developers create, publish, verify, and reuse real outcomes.
-
-[Website](https://bio.ruiy.sh) · [X / Twitter](https://x.com/ruiyanghim) · [Email](mailto:ruiyang0012@gmail.com)
-
-<picture>
+<p align="center">
   <img src="./assets/living-terminal.svg" alt="Ryan's living terminal cycling through Image2Studio, DropHere, CheckHere, Skill Manager, and Motion Lexicon" width="100%">
-</picture>
+</p>
 
-## Selected systems
+<p align="center">
+  <img src="./assets/section-systems.svg" alt="Selected systems — five active products" width="100%">
+</p>
 
-| System | Role | Current release |
-| --- | --- | --- |
-| [Image2Studio](https://image2studio.com) | Turn GPT Image 2 prompts into reusable scene templates | Live product |
-| [DropHere](https://github.com/Ryan-yang125/drophere) | Publish static sites from coding-agent sessions | <!-- version:drophere -->v1.0.1<!-- /version:drophere --> |
-| [CheckHere](https://github.com/Ryan-yang125/checkhere) | Run release checks for AI-built websites | <!-- version:checkhere -->v0.4.0<!-- /version:checkhere --> |
-| [Skill Manager](https://github.com/Ryan-yang125/skill-manager) | Audit and clean Agent Skills safely | <!-- version:skill-manager -->v0.6.0<!-- /version:skill-manager --> |
-| [Motion Lexicon](https://github.com/Ryan-yang125/motion-lexicon) | Bilingual UI motion recipes for humans and agents | Open source |
+<p align="center">
+  <a href="https://image2studio.com"><img src="./assets/project-image2studio.svg" alt="Image2Studio — reusable GPT Image 2 scene templates" width="100%"></a>
+</p>
 
-<sub>Also built [ChatLLM-Web](https://github.com/Ryan-yang125/ChatLLM-Web), a private in-browser LLM powered by WebGPU · <!-- stars:chatllm -->630<!-- /stars:chatllm --> stars</sub>
+<p align="center">
+  <a href="https://github.com/Ryan-yang125/drophere"><img src="./assets/project-drophere.svg" alt="DropHere — publish static sites from agent sessions" width="49%"></a>
+  <a href="https://github.com/Ryan-yang125/checkhere"><img src="./assets/project-checkhere.svg" alt="CheckHere — release checks for AI-built websites" width="49%"></a>
+</p>
 
----
+<p align="center">
+  <a href="https://github.com/Ryan-yang125/skill-manager"><img src="./assets/project-skill-manager.svg" alt="Skill Manager — audit and clean Agent Skills safely" width="49%"></a>
+  <a href="https://github.com/Ryan-yang125/motion-lexicon"><img src="./assets/project-motion-lexicon.svg" alt="Motion Lexicon — bilingual UI motion recipes" width="49%"></a>
+</p>
 
-`Agent Skills` · `TypeScript` · `Cloudflare` · `Browser automation` · `Generative interfaces`
+<p align="center">
+  <a href="https://github.com/Ryan-yang125/ChatLLM-Web"><img src="./assets/origin-chatllm.svg" alt="ChatLLM-Web — private in-browser LLM powered by WebGPU" width="100%"></a>
+</p>
 
-<sub>This profile refreshes daily from GitHub releases and contribution activity.</sub>
+<p align="center">
+  <img src="./assets/capability-rail.svg" alt="Agent Skills, TypeScript, Cloudflare, browser automation, and generative interfaces" width="100%">
+</p>

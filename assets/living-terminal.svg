@@ -74,7 +74,7 @@
     <text x="32" y="337" class="amber" font-size="8">★ 630</text>
 
     <text x="220" y="78" class="faint" font-size="8" letter-spacing="1">SHANGHAI · UTC+8</text>
-    <text x="862" y="78" text-anchor="end" class="faint" font-size="8" letter-spacing="1">412 CONTRIBUTIONS</text>
+    <text x="862" y="78" text-anchor="end" class="faint" font-size="8" letter-spacing="1">413 CONTRIBUTIONS</text>
 
     <g class="scene scene-1">
       <text x="220" y="126" class="mint" font-size="14">➜</text><text x="240" y="126" class="purple" font-size="14">~/image2studio</text><text x="385" y="126" class="text" font-size="14">generate --scene poster</text><rect x="590" y="112" width="2" height="18" class="mint caret"/>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-labelledby="title desc">
+  <title id="title">Ryan Yang — AI product developer</title>
+  <desc id="desc">Ryan builds the last mile between AI capability and useful products.</desc>
+  <defs>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#1b2731" stroke-width="1"/></pattern>
+    <linearGradient id="signal" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#65dfc3"/><stop offset="1" stop-color="#9188ff"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <style>text{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono",monospace}.label{fill:#667784}.body{fill:#aab9c4}.white{fill:#edf4f7}.mint{fill:#65dfc3}.purple{fill:#9188ff}</style>
+  <rect width="900" height="300" rx="18" fill="#0b1118"/>
+  <rect width="900" height="300" rx="18" fill="url(#grid)" opacity=".55"/>
+  <path d="M0 18Q0 0 18 0H882Q900 0 900 18V282Q900 300 882 300H18Q0 300 0 282Z" fill="none" stroke="#26333e"/>
+  <rect x="28" y="26" width="126" height="28" rx="14" fill="#142029" stroke="#2c3b47"/>
+  <circle cx="46" cy="40" r="4" fill="#65dfc3" filter="url(#glow)"/>
+  <text x="59" y="44" class="label" font-size="9" letter-spacing="1.2">AVAILABLE / BUILD</text>
+  <text x="28" y="94" class="label" font-size="10" letter-spacing="2">RYAN YANG · SHANGHAI</text>
+  <text x="28" y="139" class="white" font-size="34" font-weight="700" letter-spacing="-1.5">AI PRODUCT</text>
+  <text x="28" y="178" class="purple" font-size="34" font-weight="700" letter-spacing="-1.5">DEVELOPER.</text>
+  <text x="31" y="216" class="body" font-size="13">I turn AI capability into tools people can actually use.</text>
+  <text x="31" y="243" class="mint" font-size="12">BUILDING THE LAST MILE OF AI WORK →</text>
+
+  <line x1="638" y1="48" x2="638" y2="244" stroke="#2c3b47"/>
+  <rect x="626" y="45" width="24" height="24" rx="7" fill="#65dfc3"/><text x="638" y="61" text-anchor="middle" fill="#0b1118" font-size="10" font-weight="700">01</text>
+  <rect x="626" y="97" width="24" height="24" rx="7" fill="#18242e" stroke="#384956"/><text x="638" y="113" text-anchor="middle" class="body" font-size="10">02</text>
+  <rect x="626" y="149" width="24" height="24" rx="7" fill="#18242e" stroke="#384956"/><text x="638" y="165" text-anchor="middle" class="body" font-size="10">03</text>
+  <rect x="626" y="201" width="24" height="24" rx="7" fill="#18242e" stroke="#384956"/><text x="638" y="217" text-anchor="middle" class="body" font-size="10">04</text>
+  <text x="670" y="61" class="white" font-size="11">CREATE</text><text x="670" y="78" class="label" font-size="8">products from capability</text>
+  <text x="670" y="113" class="white" font-size="11">PUBLISH</text><text x="670" y="130" class="label" font-size="8">real public outcomes</text>
+  <text x="670" y="165" class="white" font-size="11">VERIFY</text><text x="670" y="182" class="label" font-size="8">proof before done</text>
+  <text x="670" y="217" class="white" font-size="11">REUSE</text><text x="670" y="234" class="label" font-size="8">systems that compound</text>
+  <rect x="28" y="272" width="844" height="2" fill="#17232c"/><rect x="28" y="272" width="228" height="2" fill="url(#signal)"/>
+  <text x="872" y="287" text-anchor="end" class="label" font-size="8">{{CONTRIBUTIONS}} CONTRIBUTIONS / 12 MONTHS</text>
+</svg>
+
