@@ -19,18 +19,20 @@
     .purple { fill:#9188ff; }
     .mint { fill:#65dfc3; }
     .amber { fill:#d9ac45; }
-    .scene, .focus { opacity:0; animation-duration:16s; animation-timing-function:steps(1,end); animation-iteration-count:infinite; }
+    .scene, .focus { opacity:0; animation-duration:20s; animation-timing-function:steps(1,end); animation-iteration-count:infinite; }
     .scene-1,.focus-1 { animation-name:phase1; }
     .scene-2,.focus-2 { animation-name:phase2; }
     .scene-3,.focus-3 { animation-name:phase3; }
     .scene-4,.focus-4 { animation-name:phase4; }
+    .scene-5,.focus-5 { animation-name:phase5; }
     .caret { animation:blink 1s steps(1,end) infinite; }
     .pulse { animation:pulse 1.8s ease-in-out infinite; transform-origin:center; }
-    .progress { animation:progress 16s linear infinite; }
-    @keyframes phase1 { 0%,24.9%{opacity:1}25%,100%{opacity:0} }
-    @keyframes phase2 { 0%,24.9%{opacity:0}25%,49.9%{opacity:1}50%,100%{opacity:0} }
-    @keyframes phase3 { 0%,49.9%{opacity:0}50%,74.9%{opacity:1}75%,100%{opacity:0} }
-    @keyframes phase4 { 0%,74.9%{opacity:0}75%,100%{opacity:1} }
+    .progress { animation:progress 20s linear infinite; }
+    @keyframes phase1 { 0%,19.9%{opacity:1}20%,100%{opacity:0} }
+    @keyframes phase2 { 0%,19.9%{opacity:0}20%,39.9%{opacity:1}40%,100%{opacity:0} }
+    @keyframes phase3 { 0%,39.9%{opacity:0}40%,59.9%{opacity:1}60%,100%{opacity:0} }
+    @keyframes phase4 { 0%,59.9%{opacity:0}60%,79.9%{opacity:1}80%,100%{opacity:0} }
+    @keyframes phase5 { 0%,79.9%{opacity:0}80%,100%{opacity:1} }
     @keyframes blink { 50%{opacity:0} }
     @keyframes pulse { 0%,100%{opacity:.45;transform:scale(.8)}50%{opacity:1;transform:scale(1.15)} }
     @keyframes progress { from{transform:translateX(-770px)}to{transform:translateX(0)} }
@@ -54,15 +56,17 @@
     <line x1="194" y1="52" x2="194" y2="358" stroke="#28333e"/>
     <text x="32" y="77" class="faint" font-size="8" letter-spacing="1.2">ACTIVE SYSTEMS</text>
 
-    <g class="focus focus-1"><rect x="25" y="88" width="156" height="40" rx="6" fill="#19242d"/></g>
-    <g class="focus focus-2"><rect x="25" y="128" width="156" height="40" rx="6" fill="#19242d"/></g>
-    <g class="focus focus-3"><rect x="25" y="168" width="156" height="40" rx="6" fill="#19242d"/></g>
-    <g class="focus focus-4"><rect x="25" y="208" width="156" height="40" rx="6" fill="#19242d"/></g>
+    <g class="focus focus-1"><rect x="25" y="88" width="156" height="36" rx="6" fill="#19242d"/></g>
+    <g class="focus focus-2"><rect x="25" y="124" width="156" height="36" rx="6" fill="#19242d"/></g>
+    <g class="focus focus-3"><rect x="25" y="160" width="156" height="36" rx="6" fill="#19242d"/></g>
+    <g class="focus focus-4"><rect x="25" y="196" width="156" height="36" rx="6" fill="#19242d"/></g>
+    <g class="focus focus-5"><rect x="25" y="232" width="156" height="36" rx="6" fill="#19242d"/></g>
 
-    <circle cx="39" cy="108" r="3" fill="#4b5a65"/><text x="50" y="112" class="text" font-size="10">drophere</text><text x="169" y="112" text-anchor="end" class="mint" font-size="7">LIVE</text>
-    <circle cx="39" cy="148" r="3" fill="#4b5a65"/><text x="50" y="152" class="text" font-size="10">checkhere</text><text x="169" y="152" text-anchor="end" class="mint" font-size="7">PASS</text>
-    <circle cx="39" cy="188" r="3" fill="#4b5a65"/><text x="50" y="192" class="text" font-size="10">skill-manager</text><text x="169" y="192" text-anchor="end" class="mint" font-size="7">CLEAN</text>
-    <circle cx="39" cy="228" r="3" fill="#4b5a65"/><text x="50" y="232" class="text" font-size="10">motion-lexicon</text><text x="169" y="232" text-anchor="end" class="mint" font-size="7">OPEN</text>
+    <circle cx="39" cy="106" r="3" fill="#4b5a65"/><text x="50" y="110" class="text" font-size="10">image2studio</text><text x="169" y="110" text-anchor="end" class="mint" font-size="7">CREATE</text>
+    <circle cx="39" cy="142" r="3" fill="#4b5a65"/><text x="50" y="146" class="text" font-size="10">drophere</text><text x="169" y="146" text-anchor="end" class="mint" font-size="7">LIVE</text>
+    <circle cx="39" cy="178" r="3" fill="#4b5a65"/><text x="50" y="182" class="text" font-size="10">checkhere</text><text x="169" y="182" text-anchor="end" class="mint" font-size="7">PASS</text>
+    <circle cx="39" cy="214" r="3" fill="#4b5a65"/><text x="50" y="218" class="text" font-size="10">skill-manager</text><text x="169" y="218" text-anchor="end" class="mint" font-size="7">CLEAN</text>
+    <circle cx="39" cy="250" r="3" fill="#4b5a65"/><text x="50" y="254" class="text" font-size="10">motion-lexicon</text><text x="169" y="254" text-anchor="end" class="mint" font-size="7">OPEN</text>
 
     <line x1="32" y1="285" x2="174" y2="285" stroke="#28333e"/>
     <text x="32" y="302" class="faint" font-size="7" letter-spacing="1.1">ORIGIN</text>
@@ -73,24 +77,30 @@
     <text x="862" y="78" text-anchor="end" class="faint" font-size="8" letter-spacing="1">{{CONTRIBUTIONS}} CONTRIBUTIONS</text>
 
     <g class="scene scene-1">
+      <text x="220" y="126" class="mint" font-size="14">➜</text><text x="240" y="126" class="purple" font-size="14">~/image2studio</text><text x="385" y="126" class="text" font-size="14">generate --scene poster</text><rect x="590" y="112" width="2" height="18" class="mint caret"/>
+      <text x="244" y="161" class="muted" font-size="11">✓  scene variables resolved</text>
+      <text x="244" y="187" class="muted" font-size="11">✓  GPT Image 2 job completed</text>
+      <text x="244" y="221" class="mint" font-size="12">◆  production-ready visual saved</text>
+    </g>
+    <g class="scene scene-2">
       <text x="220" y="126" class="mint" font-size="14">➜</text><text x="240" y="126" class="purple" font-size="14">~/drophere</text><text x="345" y="126" class="text" font-size="14">pnpm release</text><rect x="452" y="112" width="2" height="18" class="mint caret"/>
       <text x="244" y="161" class="muted" font-size="11">✓  built CLI and Agent Skill bundle</text>
       <text x="244" y="187" class="muted" font-size="11">✓  deployed public site</text>
       <text x="244" y="221" class="mint" font-size="12">◆  {{DROPHERE_VERSION}} is live</text>
     </g>
-    <g class="scene scene-2">
+    <g class="scene scene-3">
       <text x="220" y="126" class="mint" font-size="14">➜</text><text x="240" y="126" class="purple" font-size="14">~/checkhere</text><text x="355" y="126" class="text" font-size="14">checkhere https://site.dev</text><rect x="578" y="112" width="2" height="18" class="mint caret"/>
       <text x="244" y="161" class="muted" font-size="11">✓  Chromium checks completed</text>
       <text x="244" y="187" class="muted" font-size="11">✓  agent-readable fixes generated</text>
       <text x="244" y="221" class="mint" font-size="12">◆  release score 94</text>
     </g>
-    <g class="scene scene-3">
+    <g class="scene scene-4">
       <text x="220" y="126" class="mint" font-size="14">➜</text><text x="240" y="126" class="purple" font-size="14">~/skills</text><text x="320" y="126" class="text" font-size="14">skill-manager audit --json</text><rect x="546" y="112" width="2" height="18" class="mint caret"/>
       <text x="244" y="161" class="muted" font-size="11">✓  global skills inspected</text>
       <text x="244" y="187" class="muted" font-size="11">✓  evidence report generated</text>
       <text x="244" y="221" class="mint" font-size="12">◆  workspace is clean</text>
     </g>
-    <g class="scene scene-4">
+    <g class="scene scene-5">
       <text x="220" y="126" class="mint" font-size="14">➜</text><text x="240" y="126" class="purple" font-size="14">~/motion-lexicon</text><text x="400" y="126" class="text" font-size="14">pnpm build</text><rect x="495" y="112" width="2" height="18" class="mint caret"/>
       <text x="244" y="161" class="muted" font-size="11">✓  bilingual recipes compiled</text>
       <text x="244" y="187" class="muted" font-size="11">✓  machine-readable catalog ready</text>
@@ -102,10 +112,10 @@
 
     <rect x="12" y="358" width="876" height="40" fill="#0d141b"/>
     <line x1="12" y1="358" x2="888" y2="358" stroke="#28333e"/>
-    <text x="30" y="383" class="faint" font-size="8" letter-spacing="1">4 SYSTEMS ACTIVE</text>
+    <text x="30" y="383" class="faint" font-size="8" letter-spacing="1">5 SYSTEMS ACTIVE</text>
     <circle cx="450" cy="379" r="3" class="mint pulse" filter="url(#glow)"/>
     <text x="463" y="383" class="muted" font-size="8" letter-spacing="1">BUILDING IN PUBLIC</text>
-    <text x="865" y="383" text-anchor="end" class="faint" font-size="8" letter-spacing="1">LOOP 16s</text>
+    <text x="865" y="383" text-anchor="end" class="faint" font-size="8" letter-spacing="1">LOOP 20s</text>
     <rect x="12" y="395" width="876" height="3" fill="#17212a"/>
     <rect class="progress" x="12" y="395" width="876" height="3" fill="#65dfc3" opacity=".65"/>
   </g>

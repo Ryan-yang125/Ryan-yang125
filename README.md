@@ -7,13 +7,14 @@ I make open-source tools that help agents and developers create, publish, verify
 [Website](https://bio.ruiy.sh) · [X / Twitter](https://x.com/ruiyanghim) · [Email](mailto:ruiyang0012@gmail.com)
 
 <picture>
-  <img src="./assets/living-terminal.svg" alt="Ryan's living terminal cycling through DropHere, CheckHere, Skill Manager, and Motion Lexicon" width="100%">
+  <img src="./assets/living-terminal.svg" alt="Ryan's living terminal cycling through Image2Studio, DropHere, CheckHere, Skill Manager, and Motion Lexicon" width="100%">
 </picture>
 
 ## Selected systems
 
 | System | Role | Current release |
 | --- | --- | --- |
+| [Image2Studio](https://image2studio.com) | Turn GPT Image 2 prompts into reusable scene templates | Live product |
 | [DropHere](https://github.com/Ryan-yang125/drophere) | Publish static sites from coding-agent sessions | <!-- version:drophere -->v1.0.1<!-- /version:drophere --> |
 | [CheckHere](https://github.com/Ryan-yang125/checkhere) | Run release checks for AI-built websites | <!-- version:checkhere -->v0.4.0<!-- /version:checkhere --> |
 | [Skill Manager](https://github.com/Ryan-yang125/skill-manager) | Audit and clean Agent Skills safely | <!-- version:skill-manager -->v0.6.0<!-- /version:skill-manager --> |
