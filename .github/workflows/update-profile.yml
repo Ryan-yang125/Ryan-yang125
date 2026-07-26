@@ -1,0 +1,30 @@
+name: Update profile data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "23 21 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Refresh releases, contributions, and stars
+        run: node scripts/update-profile.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit refreshed profile
+        run: |
+          if git diff --quiet; then
+            echo "Profile data is already current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md assets/living-terminal.svg
+          git commit -m "Refresh profile data"
+          git push
