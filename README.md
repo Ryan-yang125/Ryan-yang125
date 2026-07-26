@@ -2,10 +2,10 @@
   <img src="./assets/profile-hero.svg" alt="Ryan Yang — independent AI product developer building small systems that help AI work land" width="100%">
 </p>
 
-<p align="center"><a href="https://bio.ruiy.sh"><strong>Open the interactive Field Notes →</strong></a></p>
+<p align="center"><a href="https://ruiy.pages.dev"><strong>Open the interactive Field Notes →</strong></a></p>
 
 <p align="center">
-  <a href="https://bio.ruiy.sh"><img src="./assets/action-website.svg" alt="Website" width="31.5%"></a>
+  <a href="https://ruiy.pages.dev"><img src="./assets/action-website.svg" alt="Website" width="31.5%"></a>
   <a href="https://x.com/ruiyanghim"><img src="./assets/action-x.svg" alt="X / Twitter" width="31.5%"></a>
   <a href="mailto:ruiyang0012@gmail.com"><img src="./assets/action-email.svg" alt="Email" width="31.5%"></a>
 </p>
