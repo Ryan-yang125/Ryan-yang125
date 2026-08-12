@@ -37,5 +37,5 @@
 </p>
 
 <p align="center">
-  <img src="./assets/capability-rail.svg" alt="Agent Skills, TypeScript, Cloudflare, browser automation, and generative interfaces" width="100%">
+  <img src="./assets/capability-rail.svg" alt="Swift, TypeScript, WebGPU, MLX, Agent Skills, Cloudflare, and browser QA" width="100%">
 </p>
