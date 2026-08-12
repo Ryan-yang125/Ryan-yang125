@@ -73,13 +73,13 @@
     <circle cx="39" cy="286" r="3" fill="#526058"/><text x="50" y="290" class="text" font-size="9">image2studio</text><text x="169" y="290" text-anchor="end" class="mint" font-size="7">SEARCH</text>
 
     <text x="220" y="78" class="faint" font-size="8" letter-spacing="1">SHANGHAI · UTC+8</text>
-    <text x="862" y="78" text-anchor="end" class="faint" font-size="8" letter-spacing="1">553 CONTRIBUTIONS</text>
+    <text x="862" y="78" text-anchor="end" class="faint" font-size="8" letter-spacing="1">576 CONTRIBUTIONS</text>
 
     <g class="scene scene-1">
       <text x="220" y="126" class="mint" font-size="14">➜</text><text x="240" y="126" class="purple" font-size="14">~/lerro</text><text x="315" y="126" class="text" font-size="14">release verify</text><rect x="435" y="112" width="2" height="18" class="mint caret"/>
       <text x="244" y="161" class="muted" font-size="11">✓  Apple Speech and Translation stay local</text>
       <text x="244" y="187" class="muted" font-size="11">✓  signed and Apple-notarized macOS build</text>
-      <text x="244" y="221" class="mint" font-size="12">◆  v1.5.1 is available</text>
+      <text x="244" y="221" class="mint" font-size="12">◆  v1.6.0 is available</text>
     </g>
     <g class="scene scene-2">
       <text x="220" y="126" class="mint" font-size="14">➜</text><text x="240" y="126" class="purple" font-size="14">~/chatllm-web</text><text x="378" y="126" class="text" font-size="14">npm run build</text><rect x="492" y="112" width="2" height="18" class="mint caret"/>
@@ -91,7 +91,7 @@
       <text x="220" y="126" class="mint" font-size="14">➜</text><text x="240" y="126" class="purple" font-size="14">~/motion-lexicon</text><text x="400" y="126" class="text" font-size="14">npm run build</text><rect x="514" y="112" width="2" height="18" class="mint caret"/>
       <text x="244" y="161" class="muted" font-size="11">✓  4 blocks + 48 components published</text>
       <text x="244" y="187" class="muted" font-size="11">✓  44 primitives and guides in the registry</text>
-      <text x="244" y="221" class="mint" font-size="12">◆  v4.3.0 is installable</text>
+      <text x="244" y="221" class="mint" font-size="12">◆  v5.0.0 is installable</text>
     </g>
     <g class="scene scene-4">
       <text x="220" y="126" class="mint" font-size="14">➜</text><text x="240" y="126" class="purple" font-size="14">~/checkhere</text><text x="355" y="126" class="text" font-size="14">checkhere https://site.dev</text><rect x="578" y="112" width="2" height="18" class="mint caret"/>
