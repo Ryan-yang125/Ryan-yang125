@@ -11,29 +11,29 @@
 </p>
 
 <p align="center">
-  <img src="./assets/living-terminal.svg" alt="Ryan's living terminal cycling through Image2Studio, DropHere, CheckHere, Skill Manager, and Motion Lexicon" width="100%">
+  <img src="./assets/living-terminal.svg" alt="Ryan's living terminal cycling through Lerro, ChatLLM Web, Motion Lexicon, CheckHere, Signature Visual, and Image2Studio" width="100%">
 </p>
 
 <p align="center">
-  <img src="./assets/section-systems.svg" alt="Selected systems — five active products" width="100%">
+  <img src="./assets/section-systems.svg" alt="Selected systems — six active products and open-source systems" width="100%">
 </p>
 
 <p align="center">
-  <a href="https://image2studio.com"><img src="./assets/project-image2studio.svg" alt="Image2Studio — reusable GPT Image 2 scene templates" width="100%"></a>
+  <a href="https://github.com/Ryan-yang125/lerro"><img src="./assets/project-lerro.svg" alt="Lerro — native local-first voice typing for macOS 26" width="100%"></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/Ryan-yang125/drophere"><img src="./assets/project-drophere.svg" alt="DropHere — publish static sites from agent sessions" width="49%"></a>
-  <a href="https://github.com/Ryan-yang125/checkhere"><img src="./assets/project-checkhere.svg" alt="CheckHere — release checks for AI-built websites" width="49%"></a>
+  <a href="https://github.com/Ryan-yang125/ChatLLM-Web"><img src="./assets/project-chatllm.svg" alt="ChatLLM Web — private local model studio, AI chat, and agent workspace" width="49%"></a>
+  <a href="https://github.com/Ryan-yang125/motion-lexicon"><img src="./assets/project-motion-lexicon.svg" alt="Motion Lexicon — copy-ready React page blocks, components, and motion primitives" width="49%"></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/Ryan-yang125/skill-manager"><img src="./assets/project-skill-manager.svg" alt="Skill Manager — audit and clean Agent Skills safely" width="49%"></a>
-  <a href="https://github.com/Ryan-yang125/motion-lexicon"><img src="./assets/project-motion-lexicon.svg" alt="Motion Lexicon — bilingual UI motion recipes" width="49%"></a>
+  <a href="https://github.com/Ryan-yang125/checkhere"><img src="./assets/project-checkhere.svg" alt="CheckHere — local-first release checks for AI-built websites" width="49%"></a>
+  <a href="https://github.com/Ryan-yang125/signature-visual"><img src="./assets/project-signature-visual.svg" alt="Signature Visual — computational visual design Skill for AI coding assistants" width="49%"></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/Ryan-yang125/ChatLLM-Web"><img src="./assets/origin-chatllm.svg" alt="ChatLLM-Web — private in-browser LLM powered by WebGPU" width="100%"></a>
+  <a href="https://image2studio.com/prompts"><img src="./assets/project-image2studio.svg" alt="Image2Studio — GPT Image 2 prompt search, Agent Skill, and generation workspace" width="100%"></a>
 </p>
 
 <p align="center">

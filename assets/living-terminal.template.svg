@@ -19,23 +19,25 @@
     .purple { fill:#c6b9ff; }
     .mint { fill:#69f0ae; }
     .amber { fill:#ffad7c; }
-    .scene, .focus { opacity:0; animation-duration:20s; animation-timing-function:steps(1,end); animation-iteration-count:infinite; }
+    .scene, .focus { opacity:0; animation-duration:24s; animation-timing-function:steps(1,end); animation-iteration-count:infinite; }
     .scene-1,.focus-1 { animation-name:phase1; }
     .scene-2,.focus-2 { animation-name:phase2; }
     .scene-3,.focus-3 { animation-name:phase3; }
     .scene-4,.focus-4 { animation-name:phase4; }
     .scene-5,.focus-5 { animation-name:phase5; }
+    .scene-6,.focus-6 { animation-name:phase6; }
     .caret { animation:blink 1s steps(1,end) infinite; }
     .pulse { animation:pulse 1.8s ease-in-out infinite; transform-origin:center; }
-    .progress { animation:progress 20s linear infinite; }
-    @keyframes phase1 { 0%,19.9%{opacity:1}20%,100%{opacity:0} }
-    @keyframes phase2 { 0%,19.9%{opacity:0}20%,39.9%{opacity:1}40%,100%{opacity:0} }
-    @keyframes phase3 { 0%,39.9%{opacity:0}40%,59.9%{opacity:1}60%,100%{opacity:0} }
-    @keyframes phase4 { 0%,59.9%{opacity:0}60%,79.9%{opacity:1}80%,100%{opacity:0} }
-    @keyframes phase5 { 0%,79.9%{opacity:0}80%,100%{opacity:1} }
+    .progress { animation:progress 24s linear infinite; }
+    @keyframes phase1 { 0%,16.59%{opacity:1}16.6%,100%{opacity:0} }
+    @keyframes phase2 { 0%,16.59%{opacity:0}16.6%,33.19%{opacity:1}33.2%,100%{opacity:0} }
+    @keyframes phase3 { 0%,33.19%{opacity:0}33.2%,49.79%{opacity:1}49.8%,100%{opacity:0} }
+    @keyframes phase4 { 0%,49.79%{opacity:0}49.8%,66.39%{opacity:1}66.4%,100%{opacity:0} }
+    @keyframes phase5 { 0%,66.39%{opacity:0}66.4%,82.99%{opacity:1}83%,100%{opacity:0} }
+    @keyframes phase6 { 0%,82.99%{opacity:0}83%,100%{opacity:1} }
     @keyframes blink { 50%{opacity:0} }
     @keyframes pulse { 0%,100%{opacity:.45;transform:scale(.8)}50%{opacity:1;transform:scale(1.15)} }
-    @keyframes progress { from{transform:translateX(-770px)}to{transform:translateX(0)} }
+    @keyframes progress { from{transform:translateX(-876px)}to{transform:translateX(0)} }
     @media (prefers-reduced-motion: reduce) { .scene-1,.focus-1{opacity:1}.scene:not(.scene-1),.focus:not(.focus-1){display:none}.caret,.pulse,.progress{animation:none} }
   </style>
 
@@ -61,50 +63,53 @@
     <g class="focus focus-3"><rect x="25" y="160" width="156" height="36" rx="6" fill="#202925"/></g>
     <g class="focus focus-4"><rect x="25" y="196" width="156" height="36" rx="6" fill="#202925"/></g>
     <g class="focus focus-5"><rect x="25" y="232" width="156" height="36" rx="6" fill="#202925"/></g>
+    <g class="focus focus-6"><rect x="25" y="268" width="156" height="36" rx="6" fill="#202925"/></g>
 
-    <circle cx="39" cy="106" r="3" fill="#526058"/><text x="50" y="110" class="text" font-size="10">image2studio</text><text x="169" y="110" text-anchor="end" class="mint" font-size="7">CREATE</text>
-    <circle cx="39" cy="142" r="3" fill="#526058"/><text x="50" y="146" class="text" font-size="10">drophere</text><text x="169" y="146" text-anchor="end" class="mint" font-size="7">LIVE</text>
-    <circle cx="39" cy="178" r="3" fill="#526058"/><text x="50" y="182" class="text" font-size="10">checkhere</text><text x="169" y="182" text-anchor="end" class="mint" font-size="7">PASS</text>
-    <circle cx="39" cy="214" r="3" fill="#526058"/><text x="50" y="218" class="text" font-size="10">skill-manager</text><text x="169" y="218" text-anchor="end" class="mint" font-size="7">CLEAN</text>
-    <circle cx="39" cy="250" r="3" fill="#526058"/><text x="50" y="254" class="text" font-size="10">motion-lexicon</text><text x="169" y="254" text-anchor="end" class="mint" font-size="7">OPEN</text>
-
-    <line x1="32" y1="285" x2="174" y2="285" stroke="#303d36"/>
-    <text x="32" y="302" class="faint" font-size="7" letter-spacing="1.1">ORIGIN</text>
-    <text x="32" y="320" class="muted" font-size="9">ChatLLM-Web</text>
-    <text x="32" y="337" class="amber" font-size="8">★ {{CHATLLM_STARS}}</text>
+    <circle cx="39" cy="106" r="3" fill="#526058"/><text x="50" y="110" class="text" font-size="10">lerro</text><text x="169" y="110" text-anchor="end" class="mint" font-size="7">NATIVE</text>
+    <circle cx="39" cy="142" r="3" fill="#526058"/><text x="50" y="146" class="text" font-size="10">chatllm-web</text><text x="169" y="146" text-anchor="end" class="amber" font-size="7">★ {{CHATLLM_STARS}}</text>
+    <circle cx="39" cy="178" r="3" fill="#526058"/><text x="50" y="182" class="text" font-size="9">motion-lexicon</text><text x="169" y="182" text-anchor="end" class="mint" font-size="7">INSTALL</text>
+    <circle cx="39" cy="214" r="3" fill="#526058"/><text x="50" y="218" class="text" font-size="10">checkhere</text><text x="169" y="218" text-anchor="end" class="mint" font-size="7">PASS</text>
+    <circle cx="39" cy="250" r="3" fill="#526058"/><text x="50" y="254" class="text" font-size="9">signature-visual</text><text x="169" y="254" text-anchor="end" class="amber" font-size="7">DESIGN</text>
+    <circle cx="39" cy="286" r="3" fill="#526058"/><text x="50" y="290" class="text" font-size="9">image2studio</text><text x="169" y="290" text-anchor="end" class="mint" font-size="7">SEARCH</text>
 
     <text x="220" y="78" class="faint" font-size="8" letter-spacing="1">SHANGHAI · UTC+8</text>
     <text x="862" y="78" text-anchor="end" class="faint" font-size="8" letter-spacing="1">{{CONTRIBUTIONS}} CONTRIBUTIONS</text>
 
     <g class="scene scene-1">
-      <text x="220" y="126" class="mint" font-size="14">➜</text><text x="240" y="126" class="purple" font-size="14">~/image2studio</text><text x="385" y="126" class="text" font-size="14">generate --scene poster</text><rect x="590" y="112" width="2" height="18" class="mint caret"/>
-      <text x="244" y="161" class="muted" font-size="11">✓  scene variables resolved</text>
-      <text x="244" y="187" class="muted" font-size="11">✓  GPT Image 2 job completed</text>
-      <text x="244" y="221" class="mint" font-size="12">◆  production-ready visual saved</text>
+      <text x="220" y="126" class="mint" font-size="14">➜</text><text x="240" y="126" class="purple" font-size="14">~/lerro</text><text x="315" y="126" class="text" font-size="14">release verify</text><rect x="435" y="112" width="2" height="18" class="mint caret"/>
+      <text x="244" y="161" class="muted" font-size="11">✓  Apple Speech and Translation stay local</text>
+      <text x="244" y="187" class="muted" font-size="11">✓  signed and Apple-notarized macOS build</text>
+      <text x="244" y="221" class="mint" font-size="12">◆  {{LERRO_VERSION}} is available</text>
     </g>
     <g class="scene scene-2">
-      <text x="220" y="126" class="mint" font-size="14">➜</text><text x="240" y="126" class="purple" font-size="14">~/drophere</text><text x="345" y="126" class="text" font-size="14">pnpm release</text><rect x="452" y="112" width="2" height="18" class="mint caret"/>
-      <text x="244" y="161" class="muted" font-size="11">✓  built CLI and Agent Skill bundle</text>
-      <text x="244" y="187" class="muted" font-size="11">✓  deployed public site</text>
-      <text x="244" y="221" class="mint" font-size="12">◆  {{DROPHERE_VERSION}} is live</text>
+      <text x="220" y="126" class="mint" font-size="14">➜</text><text x="240" y="126" class="purple" font-size="14">~/chatllm-web</text><text x="378" y="126" class="text" font-size="14">npm run build</text><rect x="492" y="112" width="2" height="18" class="mint caret"/>
+      <text x="244" y="161" class="muted" font-size="11">✓  20 curated / 65 logical models indexed</text>
+      <text x="244" y="187" class="muted" font-size="11">✓  local tool runs and artifacts stay in-browser</text>
+      <text x="244" y="221" class="mint" font-size="12">◆  {{CHATLLM_VERSION}} local model studio is live</text>
     </g>
     <g class="scene scene-3">
-      <text x="220" y="126" class="mint" font-size="14">➜</text><text x="240" y="126" class="purple" font-size="14">~/checkhere</text><text x="355" y="126" class="text" font-size="14">checkhere https://site.dev</text><rect x="578" y="112" width="2" height="18" class="mint caret"/>
-      <text x="244" y="161" class="muted" font-size="11">✓  Chromium checks completed</text>
-      <text x="244" y="187" class="muted" font-size="11">✓  agent-readable fixes generated</text>
-      <text x="244" y="221" class="mint" font-size="12">◆  release score 94</text>
+      <text x="220" y="126" class="mint" font-size="14">➜</text><text x="240" y="126" class="purple" font-size="14">~/motion-lexicon</text><text x="400" y="126" class="text" font-size="14">npm run build</text><rect x="514" y="112" width="2" height="18" class="mint caret"/>
+      <text x="244" y="161" class="muted" font-size="11">✓  4 blocks + 48 components published</text>
+      <text x="244" y="187" class="muted" font-size="11">✓  44 primitives and guides in the registry</text>
+      <text x="244" y="221" class="mint" font-size="12">◆  {{MOTION_LEXICON_VERSION}} is installable</text>
     </g>
     <g class="scene scene-4">
-      <text x="220" y="126" class="mint" font-size="14">➜</text><text x="240" y="126" class="purple" font-size="14">~/skills</text><text x="320" y="126" class="text" font-size="14">skill-manager audit --json</text><rect x="546" y="112" width="2" height="18" class="mint caret"/>
-      <text x="244" y="161" class="muted" font-size="11">✓  global skills inspected</text>
-      <text x="244" y="187" class="muted" font-size="11">✓  evidence report generated</text>
-      <text x="244" y="221" class="mint" font-size="12">◆  workspace is clean</text>
+      <text x="220" y="126" class="mint" font-size="14">➜</text><text x="240" y="126" class="purple" font-size="14">~/checkhere</text><text x="355" y="126" class="text" font-size="14">checkhere https://site.dev</text><rect x="578" y="112" width="2" height="18" class="mint caret"/>
+      <text x="244" y="161" class="muted" font-size="11">✓  Chromium and Lighthouse checks completed</text>
+      <text x="244" y="187" class="muted" font-size="11">✓  agent-readable fixes generated locally</text>
+      <text x="244" y="221" class="mint" font-size="12">◆  {{CHECKHERE_VERSION}} release gate passed</text>
     </g>
     <g class="scene scene-5">
-      <text x="220" y="126" class="mint" font-size="14">➜</text><text x="240" y="126" class="purple" font-size="14">~/motion-lexicon</text><text x="400" y="126" class="text" font-size="14">pnpm build</text><rect x="495" y="112" width="2" height="18" class="mint caret"/>
-      <text x="244" y="161" class="muted" font-size="11">✓  bilingual recipes compiled</text>
-      <text x="244" y="187" class="muted" font-size="11">✓  machine-readable catalog ready</text>
-      <text x="244" y="221" class="mint" font-size="12">◆  open vocabulary published</text>
+      <text x="220" y="126" class="mint" font-size="14">➜</text><text x="240" y="126" class="purple" font-size="14">~/signature-visual</text><text x="410" y="126" class="text" font-size="14">npm run visual-qa:cases</text><rect x="625" y="112" width="2" height="18" class="mint caret"/>
+      <text x="244" y="161" class="muted" font-size="11">✓  Canvas, Three.js, WebGL, and SVG exercised</text>
+      <text x="244" y="187" class="muted" font-size="11">✓  deterministic review evidence captured</text>
+      <text x="244" y="221" class="mint" font-size="12">◆  {{SIGNATURE_VISUAL_VERSION}} design Skill verified</text>
+    </g>
+    <g class="scene scene-6">
+      <text x="220" y="126" class="mint" font-size="14">➜</text><text x="240" y="126" class="purple" font-size="14">~/image2studio</text><text x="385" y="126" class="text" font-size="14">search --q "editorial poster"</text><rect x="625" y="112" width="2" height="18" class="mint caret"/>
+      <text x="244" y="161" class="muted" font-size="11">✓  1,000 prompt-image pairs indexed</text>
+      <text x="244" y="187" class="muted" font-size="11">✓  no-key Agent Skill returned references</text>
+      <text x="244" y="221" class="mint" font-size="12">◆  reusable visual scene opened</text>
     </g>
 
     <line x1="220" y1="304" x2="862" y2="304" stroke="#303d36"/>
@@ -112,10 +117,10 @@
 
     <rect x="12" y="358" width="876" height="40" fill="#131916"/>
     <line x1="12" y1="358" x2="888" y2="358" stroke="#303d36"/>
-    <text x="30" y="383" class="faint" font-size="8" letter-spacing="1">5 SYSTEMS ACTIVE</text>
+    <text x="30" y="383" class="faint" font-size="8" letter-spacing="1">6 SYSTEMS ACTIVE</text>
     <circle cx="450" cy="379" r="3" class="mint pulse" filter="url(#glow)"/>
     <text x="463" y="383" class="muted" font-size="8" letter-spacing="1">BUILDING IN PUBLIC</text>
-    <text x="865" y="383" text-anchor="end" class="faint" font-size="8" letter-spacing="1">LOOP 20s</text>
+    <text x="865" y="383" text-anchor="end" class="faint" font-size="8" letter-spacing="1">LOOP 24s</text>
     <rect x="12" y="395" width="876" height="3" fill="#202925"/>
     <rect class="progress" x="12" y="395" width="876" height="3" fill="#69f0ae" opacity=".65"/>
   </g>

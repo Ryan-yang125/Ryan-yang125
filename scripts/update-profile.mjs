@@ -58,19 +58,31 @@ function escapeXml(value) {
     .replaceAll("'", '&apos;');
 }
 
-const [drophere, checkhere, skillManager, contributions, chatLlm] = await Promise.all([
-  latestRelease('drophere', 'v1.0.1'),
-  latestRelease('checkhere', 'v0.4.0'),
-  latestRelease('skill-manager', 'v0.6.0'),
-  contributionCount(),
-  githubJson(`https://api.github.com/repos/${owner}/ChatLLM-Web`),
-]);
+const [
+  lerro,
+  chatLlmRelease,
+  motionLexicon,
+  checkhere,
+  signatureVisual,
+  contributions,
+  chatLlm,
+] = await Promise.all([
+    latestRelease('lerro', 'v1.5.1'),
+    latestRelease('ChatLLM-Web', 'v3.1.0'),
+    latestRelease('motion-lexicon', 'v4.3.0'),
+    latestRelease('checkhere', 'v0.4.0'),
+    latestRelease('signature-visual', 'v3.0.0'),
+    contributionCount(),
+    githubJson(`https://api.github.com/repos/${owner}/ChatLLM-Web`),
+  ]);
 
 const terminalTemplate = await readFile(new URL('../assets/living-terminal.template.svg', import.meta.url), 'utf8');
 const terminalSvg = terminalTemplate
-  .replaceAll('{{DROPHERE_VERSION}}', escapeXml(drophere))
+  .replaceAll('{{LERRO_VERSION}}', escapeXml(lerro))
+  .replaceAll('{{CHATLLM_VERSION}}', escapeXml(chatLlmRelease))
+  .replaceAll('{{MOTION_LEXICON_VERSION}}', escapeXml(motionLexicon))
   .replaceAll('{{CHECKHERE_VERSION}}', escapeXml(checkhere))
-  .replaceAll('{{SKILL_MANAGER_VERSION}}', escapeXml(skillManager))
+  .replaceAll('{{SIGNATURE_VISUAL_VERSION}}', escapeXml(signatureVisual))
   .replaceAll('{{CONTRIBUTIONS}}', escapeXml(contributions))
   .replaceAll('{{CHATLLM_STARS}}', escapeXml(chatLlm.stargazers_count));
 await writeFile(new URL('../assets/living-terminal.svg', import.meta.url), terminalSvg);
@@ -79,8 +91,14 @@ const heroTemplate = await readFile(new URL('../assets/profile-hero.template.svg
 const heroSvg = heroTemplate.replaceAll('{{CONTRIBUTIONS}}', escapeXml(contributions));
 await writeFile(new URL('../assets/profile-hero.svg', import.meta.url), heroSvg);
 
-const originTemplate = await readFile(new URL('../assets/origin-chatllm.template.svg', import.meta.url), 'utf8');
-const originSvg = originTemplate.replaceAll('{{CHATLLM_STARS}}', escapeXml(chatLlm.stargazers_count));
-await writeFile(new URL('../assets/origin-chatllm.svg', import.meta.url), originSvg);
-
-console.log(JSON.stringify({ drophere, checkhere, skillManager, contributions, chatLlmStars: chatLlm.stargazers_count }));
+console.log(
+  JSON.stringify({
+    lerro,
+    chatLlmRelease,
+    motionLexicon,
+    checkhere,
+    signatureVisual,
+    contributions,
+    chatLlmStars: chatLlm.stargazers_count,
+  }),
+);
