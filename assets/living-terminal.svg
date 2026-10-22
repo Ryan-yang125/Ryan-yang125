@@ -66,20 +66,20 @@
     <g class="focus focus-6"><rect x="25" y="268" width="156" height="36" rx="6" fill="#202925"/></g>
 
     <circle cx="39" cy="106" r="3" fill="#526058"/><text x="50" y="110" class="text" font-size="10">lerro</text><text x="169" y="110" text-anchor="end" class="mint" font-size="7">NATIVE</text>
-    <circle cx="39" cy="142" r="3" fill="#526058"/><text x="50" y="146" class="text" font-size="10">chatllm-web</text><text x="169" y="146" text-anchor="end" class="amber" font-size="7">★ 638</text>
+    <circle cx="39" cy="142" r="3" fill="#526058"/><text x="50" y="146" class="text" font-size="10">chatllm-web</text><text x="169" y="146" text-anchor="end" class="amber" font-size="7">★ 639</text>
     <circle cx="39" cy="178" r="3" fill="#526058"/><text x="50" y="182" class="text" font-size="9">motion-lexicon</text><text x="169" y="182" text-anchor="end" class="mint" font-size="7">INSTALL</text>
     <circle cx="39" cy="214" r="3" fill="#526058"/><text x="50" y="218" class="text" font-size="10">checkhere</text><text x="169" y="218" text-anchor="end" class="mint" font-size="7">PASS</text>
     <circle cx="39" cy="250" r="3" fill="#526058"/><text x="50" y="254" class="text" font-size="9">signature-visual</text><text x="169" y="254" text-anchor="end" class="amber" font-size="7">DESIGN</text>
     <circle cx="39" cy="286" r="3" fill="#526058"/><text x="50" y="290" class="text" font-size="9">image2studio</text><text x="169" y="290" text-anchor="end" class="mint" font-size="7">SEARCH</text>
 
     <text x="220" y="78" class="faint" font-size="8" letter-spacing="1">SHANGHAI · UTC+8</text>
-    <text x="862" y="78" text-anchor="end" class="faint" font-size="8" letter-spacing="1">620 CONTRIBUTIONS</text>
+    <text x="862" y="78" text-anchor="end" class="faint" font-size="8" letter-spacing="1">625 CONTRIBUTIONS</text>
 
     <g class="scene scene-1">
       <text x="220" y="126" class="mint" font-size="14">➜</text><text x="240" y="126" class="purple" font-size="14">~/lerro</text><text x="315" y="126" class="text" font-size="14">release verify</text><rect x="435" y="112" width="2" height="18" class="mint caret"/>
       <text x="244" y="161" class="muted" font-size="11">✓  Apple Speech and Translation stay local</text>
       <text x="244" y="187" class="muted" font-size="11">✓  signed and Apple-notarized macOS build</text>
-      <text x="244" y="221" class="mint" font-size="12">◆  v1.9.2 is available</text>
+      <text x="244" y="221" class="mint" font-size="12">◆  v1.9.3 is available</text>
     </g>
     <g class="scene scene-2">
       <text x="220" y="126" class="mint" font-size="14">➜</text><text x="240" y="126" class="purple" font-size="14">~/chatllm-web</text><text x="378" y="126" class="text" font-size="14">npm run build</text><rect x="492" y="112" width="2" height="18" class="mint caret"/>
