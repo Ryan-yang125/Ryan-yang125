@@ -5,11 +5,11 @@ I'm Ryan Yang, an independent AI product developer in Shanghai. I design, build,
 <a href="https://github.com/Ryan-yang125/lerro"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/lerro-dark.webp"><img src="assets/lerro-light.webp" alt="Lerro: voice typing for Mac. Press a shortcut and talk; Lerro drops filler words, applies your corrections, and adds punctuation." width="100%"></picture></a>
 
 <p>
-  <a href="https://github.com/Ryan-yang125/ChatLLM-Web"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/chatllm-dark.webp"><img src="assets/chatllm-light.webp" alt="ChatLLM Web: a private AI chat and agent workspace that runs local models in your browser." width="48%"></picture></a>&nbsp;&nbsp;
-  <a href="https://github.com/Ryan-yang125/motion-lexicon"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/motion-dark.webp"><img src="assets/motion-light.webp" alt="Motion Lexicon: describe a motion feeling, compare candidates, and copy a ready React component." width="48%"></picture></a>
+  <a href="https://github.com/Ryan-yang125/ChatLLM-Web"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/chatllm-dark.webp"><img src="assets/chatllm-light.webp" alt="ChatLLM Web: a private AI chat and agent workspace that runs local models in your browser." width="49%"></picture></a>&nbsp;&nbsp;
+  <a href="https://github.com/Ryan-yang125/motion-lexicon"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/motion-dark.webp"><img src="assets/motion-light.webp" alt="Motion Lexicon: describe a motion feeling, compare candidates, and copy a ready React component." width="49%"></picture></a>
 </p>
 
 <p>
-  <a href="https://image2studio.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/image2studio-dark.webp"><img src="assets/image2studio-light.webp" alt="Image2Studio: pick an image scene, fill in a template, and generate with GPT Image 2." width="48%"></picture></a>&nbsp;&nbsp;
-  <a href="https://github.com/Ryan-yang125/checkhere"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/checkhere-dark.webp"><img src="assets/checkhere-light.webp" alt="CheckHere: real-browser release checks for AI-built websites, run locally before you ship." width="48%"></picture></a>
+  <a href="https://image2studio.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/image2studio-dark.webp"><img src="assets/image2studio-light.webp" alt="Image2Studio: pick an image scene, fill in a template, and generate with GPT Image 2." width="49%"></picture></a>&nbsp;&nbsp;
+  <a href="https://github.com/Ryan-yang125/checkhere"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/checkhere-dark.webp"><img src="assets/checkhere-light.webp" alt="CheckHere: real-browser release checks for AI-built websites, run locally before you ship." width="49%"></picture></a>
 </p>
