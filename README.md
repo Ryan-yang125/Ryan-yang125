@@ -1,41 +1,15 @@
-<p align="center">
-  <img src="./assets/profile-hero.svg" alt="Ryan Yang — independent AI product developer building small systems that help AI work land" width="100%">
+I'm Ryan Yang, an independent AI product developer in Shanghai. I design, build, and ship small products for the Mac and the browser.
+
+[ruiy.pages.dev](https://ruiy.pages.dev) · [X @ruiyanghim](https://x.com/ruiyanghim) · [ruiyang0012@gmail.com](mailto:ruiyang0012@gmail.com)
+
+<a href="https://github.com/Ryan-yang125/lerro"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/lerro-dark.webp"><img src="assets/lerro-light.webp" alt="Lerro: voice typing for Mac. Press a shortcut and talk; Lerro drops filler words, applies your corrections, and adds punctuation." width="100%"></picture></a>
+
+<p>
+  <a href="https://github.com/Ryan-yang125/ChatLLM-Web"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/chatllm-dark.webp"><img src="assets/chatllm-light.webp" alt="ChatLLM Web: a private AI chat and agent workspace that runs local models in your browser." width="48%"></picture></a>&nbsp;&nbsp;
+  <a href="https://github.com/Ryan-yang125/motion-lexicon"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/motion-dark.webp"><img src="assets/motion-light.webp" alt="Motion Lexicon: describe a motion feeling, compare candidates, and copy a ready React component." width="48%"></picture></a>
 </p>
 
-<p align="center"><a href="https://ruiy.pages.dev"><strong>Open the interactive Field Notes →</strong></a></p>
-
-<p align="center">
-  <a href="https://ruiy.pages.dev"><img src="./assets/action-website.svg" alt="Website" width="31.5%"></a>
-  <a href="https://x.com/ruiyanghim"><img src="./assets/action-x.svg" alt="X / Twitter" width="31.5%"></a>
-  <a href="mailto:ruiyang0012@gmail.com"><img src="./assets/action-email.svg" alt="Email" width="31.5%"></a>
-</p>
-
-<p align="center">
-  <img src="./assets/living-terminal.svg" alt="Ryan's living terminal cycling through Lerro, ChatLLM Web, Motion Lexicon, CheckHere, Signature Visual, and Image2Studio" width="100%">
-</p>
-
-<p align="center">
-  <img src="./assets/section-systems.svg" alt="Selected systems — six active products and open-source systems" width="100%">
-</p>
-
-<p align="center">
-  <a href="https://github.com/Ryan-yang125/lerro"><img src="./assets/project-lerro.svg" alt="Lerro — native local-first voice typing for macOS 26" width="100%"></a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/Ryan-yang125/ChatLLM-Web"><img src="./assets/project-chatllm.svg" alt="ChatLLM Web — private local model studio, AI chat, and agent workspace" width="49%"></a>
-  <a href="https://github.com/Ryan-yang125/motion-lexicon"><img src="./assets/project-motion-lexicon.svg" alt="Motion Lexicon — copy-ready React page blocks, components, and motion primitives" width="49%"></a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/Ryan-yang125/checkhere"><img src="./assets/project-checkhere.svg" alt="CheckHere — local-first release checks for AI-built websites" width="49%"></a>
-  <a href="https://github.com/Ryan-yang125/signature-visual"><img src="./assets/project-signature-visual.svg" alt="Signature Visual — computational visual design Skill for AI coding assistants" width="49%"></a>
-</p>
-
-<p align="center">
-  <a href="https://image2studio.com/prompts"><img src="./assets/project-image2studio.svg" alt="Image2Studio — GPT Image 2 prompt search, Agent Skill, and generation workspace" width="100%"></a>
-</p>
-
-<p align="center">
-  <img src="./assets/capability-rail.svg" alt="Swift, TypeScript, WebGPU, MLX, Agent Skills, Cloudflare, and browser QA" width="100%">
+<p>
+  <a href="https://image2studio.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/image2studio-dark.webp"><img src="assets/image2studio-light.webp" alt="Image2Studio: pick an image scene, fill in a template, and generate with GPT Image 2." width="48%"></picture></a>&nbsp;&nbsp;
+  <a href="https://github.com/Ryan-yang125/checkhere"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/checkhere-dark.webp"><img src="assets/checkhere-light.webp" alt="CheckHere: real-browser release checks for AI-built websites, run locally before you ship." width="48%"></picture></a>
 </p>
