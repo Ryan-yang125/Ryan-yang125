@@ -1,6 +1,6 @@
 I'm Kris Yang, an independent AI product developer in Shanghai. I design, build, and ship small products for the Mac and the browser.
 
-[ruiy.pages.dev](https://ruiy.pages.dev) · [X @krisyangdev](https://x.com/krisyangdev) · [ruiyang0012@gmail.com](mailto:ruiyang0012@gmail.com)
+[krisyang.dev](https://krisyang.dev) · [X @krisyangdev](https://x.com/krisyangdev) · [ruiyang0012@gmail.com](mailto:ruiyang0012@gmail.com)
 
 <a href="https://github.com/krisyangdev/lerro"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/lerro-dark.webp"><img src="assets/lerro-light.webp" alt="Lerro: voice typing for Mac. Press a shortcut and talk; Lerro drops filler words, applies your corrections, and adds punctuation." width="100%"></picture></a>
 
